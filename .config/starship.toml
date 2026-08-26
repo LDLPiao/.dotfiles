@@ -1,6 +1,14 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 palette = "noctalia"
 
+right_format = """$time"""
+
+[time]
+format="[ $time ]( $style )"
+style="dimmed cyan"
+time_format="%R"
+disabled=false
+
 [aws]
 symbol = " "
 
@@ -314,40 +322,40 @@ symbol = " "
 
 [palettes.noctalia]
 # Standard colors
-blue      = "#89cdac"
+blue      = "#b2ac80"
 red       = "#fd4663"
-green     = "#aad97d"
-yellow    = "#b8e4d7"
-cyan      = "#a3dccb"
-magenta   = "#bfdea1"
-white     = "#f2f3f2"
-black     = "#293021"
+green     = "#c18b91"
+yellow    = "#b29480"
+cyan      = "#d0bcaf"
+magenta   = "#d3acb0"
+white     = "#f3f2f2"
+black     = "#302123"
 
 # Extended palette (Catppuccin-compatible names)
-rosewater = "#b8e4d7"
+rosewater = "#b29480"
 flamingo  = "#fd4663"
-pink      = "#bfdea1"
-mauve     = "#bfdea1"
+pink      = "#d3acb0"
+mauve     = "#d3acb0"
 maroon    = "#fd4663"
-peach     = "#b8e4d7"
-teal      = "#a3dccb"
-sky       = "#a3dccb"
-sapphire  = "#89cdac"
-lavender  = "#bfdea1"
+peach     = "#b29480"
+teal      = "#d0bcaf"
+sky       = "#d0bcaf"
+sapphire  = "#b2ac80"
+lavender  = "#d3acb0"
 
 # Text shades
-text      = "#f2f3f2"
-subtext1  = "#f2f3f2"
-subtext0  = "#656e5e"
+text      = "#f3f2f2"
+subtext1  = "#f3f2f2"
+subtext0  = "#736366"
 
 # Surface shades
-overlay2  = "#656e5e"
-overlay1  = "#656e5e"
-overlay0  = "#293021"
-surface2  = "#293021"
-surface1  = "#293021"
-surface0  = "#1f231a"
-base      = "#1f231a"
-mantle    = "#1f231a"
-crust     = "#1f231a"
+overlay2  = "#736366"
+overlay1  = "#736366"
+overlay0  = "#302123"
+surface2  = "#302123"
+surface1  = "#302123"
+surface0  = "#231a1b"
+base      = "#231a1b"
+mantle    = "#231a1b"
+crust     = "#231a1b"
 # <<< NOCTALIA STARSHIP PALETTE <<<

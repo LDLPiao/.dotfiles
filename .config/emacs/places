@@ -1,3 +1,2 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/ldlpiao/.config/nvim/init.lua" . 7954)
- ("/home/ldlpiao/.config/emacs/init.el" . 1253))
+(("/home/ldlpiao/.config/emacs/init.el" . 2253) ("/home/ldlpiao/dev/pet-saude/quickstart.py" . 483) ("/home/ldlpiao/Vídeos/" (dired-filename . "/home/ldlpiao")) ("/home/ldlpiao/.saves/" (dired-filename . "/home/ldlpiao")) ("/home/ldlpiao/" (dired-filename . "/home/ldlpiao/.saves")) ("/home/ldlpiao/.config/fish/config.fish" . 233) ("/home/ldlpiao/.config/fish/" (dired-filename . "/home/ldlpiao/.config")) ("/home/ldlpiao/.config/" (dired-filename . "/home/ldlpiao/.config/emacs")) ("/home/ldlpiao/.config/emacs/" (dired-filename . "/home/ldlpiao/.config/emacs/init.el")) ("/home/ldlpiao/.config/nvim/init.lua" . 20236))
