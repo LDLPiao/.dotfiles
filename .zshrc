@@ -22,4 +22,5 @@ bindkey -e
 alias dot="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 
 eval "$(starship init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 source <(fzf --zsh)
