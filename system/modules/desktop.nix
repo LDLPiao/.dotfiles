@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ config, pkgs, ... }:
 {
   # O módulo do Mango já instala o básico de um ambiente Wayland funcional.
   # Se faltar algo (portal, polkit), acrescente aqui.
@@ -23,6 +23,12 @@
   fonts.packages = with pkgs; [
     nerd-fonts.jetbrains-mono
   ];
+
+  console.useXkbConfig = true;
+  environment.variables = {
+    XKB_DEFAULT_LAYOUT  = config.services.xserver.xkb.layout;
+    XKB_DEFAULT_VARIANT = config.services.xserver.xkb.variant;
+  };
 
   # Programas de usuário ficam em ../home/default.nix.
 }
